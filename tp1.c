@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* ========== PARTIE 1 : suites U, V, W ========== */
+/*PARTIE 1 : suites U, V, W */
 
 /* Prototypes (obligatoires pour la récursivité croisée) */
 int U(int n);
@@ -59,7 +59,7 @@ void suites_iter(int n) {
     printf("U(%d) = %.0f\nV(%d) = %.0f\nW(%d) = %.0f\n", n, u, n, v, n, w);
 }
 
-/* ========== PARTIE 2 : Fibonacci ========== */
+/* PARTIE 2 : Fibonacci*/
 
 long long compteur = 0;   /* nombre d'appels récursifs */
 
@@ -91,12 +91,12 @@ int fib_iter(int n) {
     return b;
 }
 
-/* ========== PROGRAMME PRINCIPAL ========== */
+/*PROGRAMME PRINCIPAL  */
 
 int main() {
     int choix, n, i;
 
-    printf("=== TP1 : Recursivite ===\n");
+    printf("=== TP1 : Recursivite \n");
     printf("1. Suites U,V,W recursives (entiers)\n");
     printf("2. Suites U,V,W recursives (reels)\n");
     printf("3. Suites U,V,W iteratives (reels)\n");
